@@ -11,4 +11,21 @@ This application demonstrates a simple, reusable Node.js web application based o
 1. Run `npm start` to start the app
 1. Access the running app in a browser at <http://localhost:6001>
 
+### Open the 3 web pages :
+
+- localhost:6001/advisor   
+This page will be used to follow the conversation with the advisor
+
+![advisor](githubpictures/advisor.png)
+
+- localhost:6001/phone  
+This page will be used to start the call
+
+![phone](githubpictures/phone.png)
+
+- localhost:6001/control  
+This page will be used to record your voice input
+
+![control](githubpictures/control.png)
+
 [Install Node.js]: https://nodejs.org/en/download/
