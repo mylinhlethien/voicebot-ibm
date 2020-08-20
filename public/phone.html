@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./dist/phoneStyle.css">
+    <title>Internationale Banque Monde - Phone</title>
+
+  </head>
+  <body>
+    <div class="workspace">
+  <div class="bg-content"></div>
+  <div class="mobile-body">
+    <div class="top-bar">
+      <div class="camera"></div>
+      <div class="speaker"></div>
+    </div>
+    <div class="button volume-up"></div>
+    <div class="button volume-down"></div>
+    <div class="button silent"></div>
+    <div class="button power"></div>
+    <div class="layer-2" id="display">
+      <div class="container">
+        <div class="row">
+          <div id="top-infos" style="display: none;">
+            <div class="col-6 custom-top-bar top">
+              <span class="custom-hour hour-label">00:00</span>
+            </div>
+          </div>
+          <div id="middle-infos" style="display: none;">
+            <div class="col-12 custom-hour middle">
+              <span class="hour-label">00:00</span>
+            </div>
+            <div class="col-12 custom-date middle">
+              <span class="date-label">Sunday 13 May</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layer-1"></div>
+    <div class="layer-gradient-1"></div>
+    <div class="layer-gradient-2"></div>
+  </div>
+  <div class="gallery-content">
+    <h1 id="gallery-label"></h1>
+  </div>
+</div>
+<audio class="audio">
+    Your browser does not support the audio element.
+</audio>
+
+  </body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.js"></script>
+
+  <script src="./dist/socket.io-client/socket.io.js"></script>
+  <script type="text/javascript">
+
+    var socket = io();
+
+  </script>
+
+  <script src="./dist/phoneScript.js"></script>
+  <script src="./dist/Tocca.min.js"></script>
+  <script src="./dist/phoneStory.js"></script>
+</html>
