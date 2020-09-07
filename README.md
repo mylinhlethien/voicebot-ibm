@@ -1,6 +1,6 @@
-# Node.js Hello World Sample
+# Voicebot using IBM Watson services
 
-This application demonstrates a simple, reusable Node.js web application based on the Express framework.
+This application demonstrates a voicebot using IBM Watson services, on a Node.js web application based on the Express framework.
 
 ## Run the app locally
 
