@@ -16,7 +16,7 @@
 		"socket.io": "^2.2.0",
 		"watson-developer-cloud": "^4.0.1",
 		"wav-file-info": "0.0.8",
-		"ws": "^7.2.0"
+		"ws": "^7.4.6"
 	},
 	"repository": {},
 	"engines": {
